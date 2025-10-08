@@ -1,0 +1,44 @@
+- Topics covered
+	- Introduction to Markdown (MD)
+	  MD is selected because it is a simple way to format the document and keep this formatting in a human-readable way. We can use [Obsidian](https://obsidian.md/) for editing and preview
+	- Python
+	  Python will be used to transform each Markdown post/article into HTML as a separate pages on the Blog site
+		- Objectives
+			- Introduction to Python programming language, REPL and some of its features
+			- Using Python with some libraries to convert Markdown documents into HTML and embed it into HTML templates
+	- HTML+CSS
+	  Basic HTML & CSS will be used to create index and article pages templates. For anyone who wants to make the HTML look pretty out of the box we can use simple CSS library, like [Pico CSS](https://picocss.com)
+	- Git
+	  Introduction to Git version control system to keep history of the project evolution. If command line is overwhelming at the beginning, we can use some GUI client like [GitKraken](https://www.gitkraken.com)
+	- GitHub (with GitHub Pages)
+	  Using GitHub Pages will allow having the blog available online under `repository-name.github.io` address
+		- GitHub Actions
+		  Enabling GitHub Actions will allow HTML content being regenerated and deployed on each push to GitHub
+		- Objectives
+			- Generating SSH Key
+			- Introduction to the source code management
+	- Custom Domain
+	  Registering an their domain will allow hosting blog on a separate domain
+		- Objectives
+			- Registering custom domain name
+			- Getting familiar with DNS records
+	- OpenAI api
+		- Calling OpenAI API can generate keywords and description for each post/article
+		- While leveraging embedding API we can calculate and show similar posts
+		- Objectives
+			- Registering a new OpenAI account
+			- Calling OpenAI API from Python code
+			- Handling tokens/secrets
+- ToDo
+	- Topic breakdown plan by lesson
+	- Figure out
+		- Project structure
+		- Python library to use for Markdown->HTML conversion
+		- How to run frequently used project commands
+		- How to watch files changes and regenerate the content on each file change for instant feedback
+		- We will need an internet connection for
+			- Python installation?
+			- pushing source code to GitHub
+			- GitHub Pages
+			- GitHub Actions
+			- Accessing OpenAI api (responses/embedding)
