@@ -1,3 +1,4 @@
+# Blog project
 - Topics covered
 	- Introduction to Markdown (MD)
 	  MD is selected because it is a simple way to format the document and keep this formatting in a human-readable way. We can use [Obsidian](https://obsidian.md/) for editing and preview
