@@ -1,25 +1,26 @@
 # Blog project
 - Topics covered
 	- Introduction to Markdown (MD)
-	  MD is selected because it is a simple way to format the document and keep this formatting in a human-readable way. We can use [Obsidian](https://obsidian.md/) for editing and preview
+		- MD is selected because it is a simple way to format the document and keep this formatting in a human-readable way. 
+		- We can use [Obsidian](https://obsidian.md/) for editing and preview
 	- Python
-	  Python will be used to transform each Markdown post/article into HTML as a separate pages on the Blog site
-		- Objectives
-			- Introduction to Python programming language, REPL and some of its features
-			- Using Python with some libraries to convert Markdown documents into HTML and embed it into HTML templates
+		- Python will be used to transform each Markdown post/article into HTML as a separate pages on the Blog site
+			- Objectives
+				- Introduction to Python programming language, REPL and some of its features
+				- Using Python with some libraries to convert Markdown documents into HTML and embed it into HTML templates
 	- HTML+CSS
-	  Basic HTML & CSS will be used to create index and article pages templates. For anyone who wants to make the HTML look pretty out of the box we can use simple CSS library, like [Pico CSS](https://picocss.com)
+		- Basic HTML & CSS will be used to create index and article pages templates. For anyone who wants to make the HTML look pretty out of the box we can use simple CSS library, like [Pico CSS](https://picocss.com)
 	- Git
-	  Introduction to Git version control system to keep history of the project evolution. If command line is overwhelming at the beginning, we can use some GUI client like [GitKraken](https://www.gitkraken.com)
+		- Introduction to Git version control system to keep history of the project evolution. If command line is overwhelming at the beginning, we can use some GUI client like [GitKraken](https://www.gitkraken.com)
 	- GitHub (with GitHub Pages)
-	  Using GitHub Pages will allow having the blog available online under `repository-name.github.io` address
+		- Using GitHub Pages will allow having the blog available online under `repository-name.github.io` address
 		- GitHub Actions
-		  Enabling GitHub Actions will allow HTML content being regenerated and deployed on each push to GitHub
+			- Enabling GitHub Actions will allow HTML content being regenerated and deployed on each push to GitHub
 		- Objectives
 			- Generating SSH Key
 			- Introduction to the source code management
 	- Custom Domain
-	  Registering an their domain will allow hosting blog on a separate domain
+		- Registering an their domain will allow hosting blog on a separate domain
 		- Objectives
 			- Registering custom domain name
 			- Getting familiar with DNS records
