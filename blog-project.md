@@ -39,7 +39,7 @@
 		- How to watch files changes and regenerate the content on each file change for instant feedback
 		- We will need an internet connection for
 			- Python installation?
-			- pushing source code to GitHub
+			- Pushing source code to GitHub
 			- GitHub Pages
 			- GitHub Actions
 			- Accessing OpenAI api (responses/embedding)
