@@ -1,4 +1,7 @@
 # Blog project
+
+[Live Demo – StarWars Blog](https://blog.907050.xyz)
+
 - Topics covered
 	- Introduction to Markdown (MD)
 		- MD is selected because it is a simple way to format the document and keep this formatting in a human-readable way. 
@@ -12,7 +15,7 @@
 		- Basic HTML & CSS will be used to create index and article pages templates. For anyone who wants to make the HTML look pretty out of the box we can use simple CSS library, like [Pico CSS](https://picocss.com)
 	- Git
 		- Introduction to Git version control system to keep history of the project evolution. If command line is overwhelming at the beginning, we can use some GUI client like [GitKraken](https://www.gitkraken.com)
-	- GitHub (with GitHub Pages)
+	- GitHub (with GitHub Pages & Actions)
 		- Using GitHub Pages will allow having the blog available online under `repository-name.github.io` address
 		- GitHub Actions
 			- Enabling GitHub Actions will allow HTML content being regenerated and deployed on each push to GitHub
