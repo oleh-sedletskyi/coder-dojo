@@ -26,7 +26,7 @@
 			- Getting familiar with DNS records
 	- OpenAI api
 		- Calling OpenAI API can generate keywords and description for each post/article
-		- While leveraging embedding API we can calculate and show similar posts
+		- While leveraging embeddings API we can calculate and show similar posts
 		- Objectives
 			- Registering a new OpenAI account
 			- Calling OpenAI API from Python code
@@ -43,4 +43,4 @@
 			- Pushing source code to GitHub
 			- GitHub Pages
 			- GitHub Actions
-			- Accessing OpenAI api (responses/embedding)
+			- Accessing OpenAI api (responses/embeddings)
