@@ -1,6 +1,7 @@
 # Blog project
 
 [Live Demo – StarWars Blog](https://blog.907050.xyz)
+[Demo source code (Clojure)](https://github.com/oleh-sedletskyi/demo-blog)
 
 - Topics covered
 	- Introduction to Markdown (MD)
@@ -12,7 +13,7 @@
 				- Introduction to Python programming language, REPL and some of its features
 				- Using Python with some libraries to convert Markdown documents into HTML and embed it into HTML templates
 	- HTML+CSS
-		- Basic HTML & CSS will be used to create index and article pages templates. For anyone who wants to make the HTML look pretty out of the box we can use simple CSS library, like [Pico CSS](https://picocss.com)
+		- Basic HTML & CSS will be used to create index and article pages templates. For anyone who wants to make the HTML look pretty out of the box we can use a simple CSS library, like [Pico CSS](https://picocss.com)
 	- Git
 		- Introduction to Git version control system to keep history of the project evolution. If command line is overwhelming at the beginning, we can use some GUI client like [GitKraken](https://www.gitkraken.com)
 	- GitHub (with GitHub Pages & Actions)
@@ -32,8 +33,27 @@
 		- While leveraging embeddings API we can calculate and show similar posts
 		- Objectives
 			- Registering a new OpenAI account
+				- Otherwise api tokens can be created for each participant from one of the mentor's account in a dedicated openai project (to easier tracking of usage)
 			- Calling OpenAI API from Python code
 			- Handling tokens/secrets
+				- Main idea to not commit tokens
+					- keep them in a dedicated file added to .gitignore or export as an env variables
+- Lessons breakdown
+	- Pre-requisites/Setup
+		- Install [VS Code](https://code.visualstudio.com/download)
+		- Install [Git](https://git-scm.com/install/)
+			- VS Code proposes to download Git from the Git tab
+			- Most of the default options work during the installation, but it is better to pick `main` branch as a default one (previously was `master`)
+		- Install [GitKraken](https://www.gitkraken.com)
+			- Here we need to define user name/email that will be used for each commit
+		- Download [Pico CSS](https://picocss.com)
+		- Install [Python](https://www.python.org/downloads/)
+		- Install [Obsidian](https://obsidian.md/)
+	- Lesson 1: Define project with templates
+		- Template for index page with a list of all pages
+		- Template for a page
+	- Lesson 2: Add a couple of MD files with content to be used
+		- ToDo
 - ToDo
 	- Topic breakdown plan by lesson
 	- Figure out
@@ -41,7 +61,7 @@
 		- Python library to use for Markdown->HTML conversion
 		- How to run frequently used project commands
 		- How to watch files changes and regenerate the content on each file change for instant feedback
-		- We will need an internet connection for
+		- We will need an internet connection for (can use hotspot for that)
 			- Python installation?
 			- Pushing source code to GitHub
 			- GitHub Pages
